@@ -45,7 +45,7 @@ spelling:
 view:
 	$(PDFVIEWER) ./build/latex/$(TARGET).pdf
 
-tmpdf:
+pdf:
 	make latex
 	# curl https://gist.githubusercontent.com/donnerc/ceb6e0045d108f41e702/raw/sphinxmanual.cls > build/latex/sphinxmanual.cls
 	# curl
