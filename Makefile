@@ -34,10 +34,7 @@ livepdf:
 		--patterns="*.png;*.rst;*.md;conf.py" \
 		--recursive \
 		--command='make tmpdf && make getpdf'	
-surge:
-	surge build/html/ ini-prog.surge.sh
 
-		
 spelling:
 	@echo Serving pages on $(SPHINX_URL)
 	sphinx-build -b spelling -d build/doctrees   source $(BUILDDIR)/spelling
@@ -59,4 +56,4 @@ getpdf:
 	cp -f build/latex/$(TARGET).pdf .
 
 surge: html
-	surge build/html gyminf-ads2-dp.surge.sh
+	surge build/html documentation-projet.surge.sh
