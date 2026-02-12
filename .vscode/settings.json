@@ -1,4 +1,7 @@
 {
     "python.formatting.provider": "black",
-    "cSpell.language": "en,fr"
+    "cSpell.language": "en,fr",
+    "files.exclude": {
+        "**/.venv": false
+    }
 }
