@@ -3,8 +3,8 @@ class DocumentInfos:
     title = u"Développement d'une application mobile de planification des devoirs et des examens"
     first_name = 'Axel'
     last_name = 'Reichenbach'
-    second_first_name = 'Arno'  # À adapter
-    second_last_name = 'Varin'       # À adapter
+    second_first_name = 'Arno'
+    second_last_name = 'Varin'
     author = f'{first_name} {last_name} et {second_first_name} {second_last_name}'
     year = u'2026'
     month = u'Février'
